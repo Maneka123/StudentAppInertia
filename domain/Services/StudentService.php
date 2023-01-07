@@ -44,7 +44,7 @@ class StudentService{
    
 
 
-      public function update(array $data,$stuent_id){
+      public function update(array $data,$student_id){
         $task=$this->task->find($student_id);
         $task->update($this->edit($task,$data));
       }

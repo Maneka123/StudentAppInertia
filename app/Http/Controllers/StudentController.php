@@ -13,7 +13,7 @@ class StudentController extends Controller
     //public function __construct(){
         //$this->task=new Student();
    // }
-
+      //inertia facade is used to render the contents of the index file from backend
     public function index(){
         //$response['tasks']=StudentFacade::all();
         //return view('pages\todo\index')->with($response);
